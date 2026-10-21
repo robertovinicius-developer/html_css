@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.roboto-flex-normal {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "wdth" 100,
+        "GRAD" 0,
+        "XOPQ" 96,
+        "XTRA" 468,
+        "YOPQ" 79,
+        "YTAS" 750,
+        "YTDE" -203,
+        "YTFI" 738,
+        "YTLC" 514,
+        "YTUC" 712;
+}
+
+body{
+    min-height: 100vh;
+    font-family: "Roboto Flex", sans-serif;
+    background-image: linear-gradient(#001017, #292B18);
+    background-repeat: no-repeat;
+}
+
+h1, h2{
+    color: #648AC0;
+}
+
+p{
+    color: #8CBAB4;
+}
+
+li{
+    color: #8CBAB4;
+}
+
+a{
+    font-style: italic;
+    text-decoration: none;
+    color: #78879B;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: #648ac079;
+    border-radius: 3px;
+}
