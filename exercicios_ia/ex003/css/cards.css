@@ -3,8 +3,10 @@
 
 body h1{
     background-color: rgb(125, 168, 182);
-    border: solid 1px gray;
+    border: double 3px gray;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.315);
+    text-indent: 15px;
 }
 
 #portal_mat{
@@ -13,17 +15,19 @@ body h1{
 
 #portal_mat h2{
     font-size: 32px;
+    margin-top: 15px;
 }
 
 .mat{
     background-color: lightblue;
-    border: solid 1px gray;
+    border: double 3px gray;
     border-radius: 5px;
     text-align: justify;
     text-indent: 15px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 10px;
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.315);
 }
 
 img{
