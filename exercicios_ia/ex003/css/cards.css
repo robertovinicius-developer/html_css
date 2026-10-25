@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body h1{
+    background-color: rgb(125, 168, 182);
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+#portal_mat{
+    background-color: lightsalmon;
+}
+
+#portal_mat h2{
+    font-size: 32px;
+}
+
+.mat{
+    background-color: lightblue;
+    border: solid 1px gray;
+    border-radius: 5px;
+    text-align: justify;
+    text-indent: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 10px;
+}
+
+img{
+    margin-bottom: 10px;
+}
