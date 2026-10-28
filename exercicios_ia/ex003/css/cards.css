@@ -1,16 +1,23 @@
 @charset "UTF-8";
 
 
+:root{
+    --cor_destaque: lightsalmon;
+    --cor_card: lightblue;
+    --cor_bordas: gray;
+    --cor_titulos: rgb(125, 168, 182);
+}
+
 body h1{
-    background-color: rgb(125, 168, 182);
-    border: double 3px gray;
+    background-color: var(--cor_titulos);
+    border: double 3px var(--cor_bordas);
     border-radius: 5px;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.315);
     text-indent: 15px;
 }
 
 #portal_mat{
-    background-color: lightsalmon;
+    background-color: var(--cor_destaque);
 }
 
 #portal_mat h2{
@@ -19,8 +26,8 @@ body h1{
 }
 
 .mat{
-    background-color: lightblue;
-    border: double 3px gray;
+    background-color: var(--cor_card);
+    border: double 3px var(--cor_bordas);
     border-radius: 5px;
     text-align: justify;
     text-indent: 15px;
