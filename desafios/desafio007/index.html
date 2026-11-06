@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptação de imagem</title>
+</head>
+<body>
+    <h1>Adaptando imagens</h1>
+    <picture>
+        <source media="(max-width: 759px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 899px)" srcset="imagens/paisagem-m.png">
+        <source media="(min-width: 900px)" srcset="imagens/paisagem-g.png">
+        <img src="imagens/paisagem-p.png" alt="">
+    </picture>
+</body>
+</html>
